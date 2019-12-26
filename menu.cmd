@@ -1,65 +1,55 @@
 @echo off
-ºÚÉ³ºº»¯+×ÖÌåÌæ»»¹¤¾ß
-curl http://dn.sea.playblackdesert.com/UploadData/ads/languagedata_en.loc --output languagedata_en.loc
+é»‘æ²™æ±‰åŒ–+å­—ä½“æ›¿æ¢å·¥å…·
+
 :start
 cls
 echo.
 echo  ==============================================================
-echo   Ö´ĞĞ±¾¹¤¾ßÇ°£¬ÇëÏÈÍË³ö²¢¹Ø±ÕÓÎÏ·¡£Áí¸½£º±¾¹¤¾ß²¢²»¼æÈİºº»¯ºĞ×Ó
+echo   æ‰§è¡Œæœ¬å·¥å…·å‰ï¼Œè¯·å…ˆé€€å‡ºå¹¶å…³é—­æ¸¸æˆã€‚å¦é™„ï¼šæœ¬å·¥å…·å¹¶ä¸å…¼å®¹æ±‰åŒ–ç›’å­
 echo  ==============================================================
-echo   ÇëÈ·±£±¾¹¤¾ß(Õû¸öÎÄ¼ş¼Ğ£©ÕıÈ·µÄ·ÅÖÃÔÚºÚÉ³µÄÓÎÏ·¸ùÄ¿Â¼ÏÂ¡£
-echo   Steam¾ÙÀı£ºC:\Program Files (x86)\Steam\steamapps\common\Black Desert Online\
+echo   è¯·ç¡®ä¿æœ¬å·¥å…·(æ•´ä¸ªæ–‡ä»¶å¤¹ï¼‰æ­£ç¡®çš„æ”¾ç½®åœ¨é»‘æ²™çš„æ¸¸æˆæ ¹ç›®å½•ä¸‹ã€‚
+echo   Steamä¸¾ä¾‹ï¼šC:\Program Files (x86)\Steam\steamapps\common\Black Desert Online\
 echo ==============================================================
-echo   ¸üĞÂÄÚÈİ£º¸üĞÂÁËÃÀ·ş20191217µÄ²¹¶¡¡£
-echo  ==============================================================
-echo   ¸üĞÂÊ±¼ä£º20191222
-echo  =============================
-echo   ¸ĞĞ»LostMercyÌá¹©µÄ¼òÌå×ÖÌå
-echo  =============================
 echo.
-echo  1. Ö»°²×°×ÖÌå£¬±£ÁôÓ¢ÎÄÔ­ÎÄ¡£ÊÊÓÃÓÚÊ¹ÓÃÓ¢ÎÄ½çÃæ+¿ÉÒÔÔÚÓÎÏ·ÀïÊäÈëÖĞÎÄ¡£Í¬Ê±Ö§³Ö¼ò·±º«ÈÕÓ¢ÎÄ¡£
+echo  1. åªå®‰è£…å­—ä½“ï¼Œä¿ç•™è‹±æ–‡åŸæ–‡ã€‚é€‚ç”¨äºä½¿ç”¨è‹±æ–‡ç•Œé¢+å¯ä»¥åœ¨æ¸¸æˆé‡Œè¾“å…¥ä¸­æ–‡ã€‚åŒæ—¶æ”¯æŒç®€ç¹éŸ©æ—¥è‹±æ–‡
 echo.
-echo  2. °²×°ºº»¯£¨·±Ìå×Ö£©¡£²¿·ÖÎ´ºº»¯µÄÄÚÈİ»á±£³ÖÓ¢ÎÄÔ­ÎÄ¡£½»Ò×Ëù/µØÍ¼µÈËÑË÷¹¦ÄÜĞèÒªÊäÈë·±Ìå×ÖÀ´ËÑË÷¡£
+echo  2. å®‰è£…æ±‰åŒ–ï¼ˆç¹ä½“å­—ï¼‰ã€‚éƒ¨åˆ†æœªæ±‰åŒ–çš„å†…å®¹ä¼šä¿æŒè‹±æ–‡åŸæ–‡ã€‚äº¤æ˜“æ‰€/åœ°å›¾ç­‰æœç´¢åŠŸèƒ½éœ€è¦è¾“å…¥ç¹ä½“å­—æ¥æœç´¢
 echo.
-echo  3. °²×°ºº»¯£¨¼òÌå×Ö£©¡£²¿·ÖÎ´ºº»¯µÄÄÚÈİ»á±£³ÖÓ¢ÎÄÔ­ÎÄ¡£½»Ò×Ëù/µØÍ¼µÈËÑË÷¹¦ÄÜĞèÒªÊäÈë·±Ìå×ÖÀ´ËÑË÷¡£
+echo  3. å½“ã€2ã€‘çš„æ±‰åŒ–åŠŸèƒ½å¤±æ•ˆçš„æ—¶å€™ï¼Œè¯·å°è¯•ä½¿ç”¨ã€4ã€‘
 echo.
-echo  4. »Ö¸´Ô­ÎÄ£¬»Ö¸´×ÖÌå.
+echo  0. æ¢å¤åŸæ–‡ï¼Œæ¢å¤å­—ä½“
 echo.
 :cho
 set choice=
-set /p choice=  ÇëÊäÈë±àºÅ:
+set /p choice=  è¯·è¾“å…¥ç¼–å·:
 if not "%choice%"=="" set choice=%choice:~0,1%
 if /i "%choice%"=="1" goto enmod
-if /i "%choice%"=="2" goto twmod
-if /i "%choice%"=="3" goto scmod
-if /i "%choice%"=="4" goto clean
-echo "%choice%" ÎŞĞ§Ñ¡Ïî£¬ÇëÖØÑ¡
+if /i "%choice%"=="2" goto cnmod
+if /i "%choice%"=="3" goto twmod
+if /i "%choice%"=="0" goto clean
+echo "%choice%" æ— æ•ˆé€‰é¡¹ï¼Œè¯·é‡é€‰
 echo.
 
 goto start
 :enmod
 copy languagedata_en.loc ..\ads\languagedata_en.loc /y
-mkdir ..\prestringtable\font\
-copy prestringtable\font\pearl_cm.ttf ..\prestringtable\font\pearl.ttf /y
+copy pearl.ttf ..\prestringtable\font\pearl.ttf /y
+goto end
+
+:cnmod
+copy languagedata_en_tw_cnhope.loc ..\ads\languagedata_en.loc /y
+copy pearl.ttf ..\prestringtable\font\pearl.ttf /y
 goto end
 
 :twmod
-copy languagedata_en_tw_cnhope.loc ..\ads\languagedata_en.loc /y
-mkdir ..\prestringtable\font\
-copy prestringtable\font\pearl_cm.ttf ..\prestringtable\font\pearl.ttf /y
-goto end
-
-:scmod
-copy languagedata_en_tw_cnhope.loc ..\ads\languagedata_en.loc /y
-mkdir ..\prestringtable\font\
-copy prestringtable\font\pearl_sc.ttf ..\prestringtable\font\pearl.ttf /y
+copy languagedata_tw.loc ..\ads\languagedata_en.loc /y
+copy pearl.ttf ..\prestringtable\font\pearl.ttf /y
 goto end
 
 :clean
-copy languagedata_en_tw.loc ..\ads\languagedata_en.loc /y
+copy languagedata_en.loc ..\ads\languagedata_en.loc /y
 rmdir ..\prestringtable /s /q
 goto end
 
 :end
 pause
-
