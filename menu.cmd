@@ -1,39 +1,39 @@
 @echo off
-ºÚÉ³ºº»¯+×ÖÌåÌæ»»¹¤¾ß
+é»‘æ²™æ±‰åŒ–+å­—ä½“æ›¿æ¢å·¥å…·
 curl http://dn.sea.playblackdesert.com/UploadData/ads/languagedata_en.loc --output languagedata_en.loc
 :start
 cls
 echo.
 echo  ==============================================================
-echo   Ö´ÐÐ±¾¹¤¾ßÇ°£¬ÇëÏÈÍË³ö²¢¹Ø±ÕÓÎÏ·¡£Áí¸½£º±¾¹¤¾ß²¢²»¼æÈÝºº»¯ºÐ×Ó
+echo   æ‰§è¡Œæœ¬å·¥å…·å‰ï¼Œè¯·å…ˆé€€å‡ºå¹¶å…³é—­æ¸¸æˆã€‚å¦é™„ï¼šæœ¬å·¥å…·å¹¶ä¸å…¼å®¹æ±‰åŒ–ç›’å­
 echo  ==============================================================
-echo   ÇëÈ·±£±¾¹¤¾ß(Õû¸öÎÄ¼þ¼Ð£©ÕýÈ·µÄ·ÅÖÃÔÚºÚÉ³µÄÓÎÏ·¸ùÄ¿Â¼ÏÂ¡£
-echo   Steam¾ÙÀý£ºC:\Program Files (x86)\Steam\steamapps\common\Black Desert Online\
+echo   è¯·ç¡®ä¿æœ¬å·¥å…·(æ•´ä¸ªæ–‡ä»¶å¤¹ï¼‰æ­£ç¡®çš„æ”¾ç½®åœ¨é»‘æ²™çš„æ¸¸æˆæ ¹ç›®å½•ä¸‹ã€‚
+echo   Steamä¸¾ä¾‹ï¼šC:\Program Files (x86)\Steam\steamapps\common\Black Desert Online\
 echo ==============================================================
-echo   ¸üÐÂÄÚÈÝ£º¸üÐÂÁËÃÀ·þ20191217µÄ²¹¶¡¡£
+echo   æ›´æ–°å†…å®¹ï¼šæ›´æ–°äº†ç¾Žæœ20191217çš„è¡¥ä¸ã€‚
 echo  ==============================================================
-echo   ¸üÐÂÊ±¼ä£º20191222
+echo   æ›´æ–°æ—¶é—´ï¼š20191222
 echo  =============================
-echo   ¸ÐÐ»LostMercyÌá¹©µÄ¼òÌå×ÖÌå
+echo   æ„Ÿè°¢LostMercyæä¾›çš„ç®€ä½“å­—ä½“
 echo  =============================
 echo.
-echo  1. Ö»°²×°×ÖÌå£¬±£ÁôÓ¢ÎÄÔ­ÎÄ¡£ÊÊÓÃÓÚÊ¹ÓÃÓ¢ÎÄ½çÃæ+¿ÉÒÔÔÚÓÎÏ·ÀïÊäÈëÖÐÎÄ¡£Í¬Ê±Ö§³Ö¼ò·±º«ÈÕÓ¢ÎÄ¡£
+echo  1. åªå®‰è£…å­—ä½“ï¼Œä¿ç•™è‹±æ–‡åŽŸæ–‡ã€‚é€‚ç”¨äºŽä½¿ç”¨è‹±æ–‡ç•Œé¢+å¯ä»¥åœ¨æ¸¸æˆé‡Œè¾“å…¥ä¸­æ–‡ã€‚åŒæ—¶æ”¯æŒç®€ç¹éŸ©æ—¥è‹±æ–‡ã€‚
 echo.
-echo  2. °²×°ºº»¯£¨·±Ìå×Ö£©¡£²¿·ÖÎ´ºº»¯µÄÄÚÈÝ»á±£³ÖÓ¢ÎÄÔ­ÎÄ¡£½»Ò×Ëù/µØÍ¼µÈËÑË÷¹¦ÄÜÐèÒªÊäÈë·±Ìå×ÖÀ´ËÑË÷¡£
+echo  2. å®‰è£…æ±‰åŒ–ï¼ˆç¹ä½“å­—ï¼‰ã€‚éƒ¨åˆ†æœªæ±‰åŒ–çš„å†…å®¹ä¼šä¿æŒè‹±æ–‡åŽŸæ–‡ã€‚äº¤æ˜“æ‰€/åœ°å›¾ç­‰æœç´¢åŠŸèƒ½éœ€è¦è¾“å…¥ç¹ä½“å­—æ¥æœç´¢ã€‚
 echo.
-echo  3. °²×°ºº»¯£¨¼òÌå×Ö£©¡£²¿·ÖÎ´ºº»¯µÄÄÚÈÝ»á±£³ÖÓ¢ÎÄÔ­ÎÄ¡£½»Ò×Ëù/µØÍ¼µÈËÑË÷¹¦ÄÜÐèÒªÊäÈë·±Ìå×ÖÀ´ËÑË÷¡£
+echo  3. å®‰è£…æ±‰åŒ–ï¼ˆç®€ä½“å­—ï¼‰ã€‚éƒ¨åˆ†æœªæ±‰åŒ–çš„å†…å®¹ä¼šä¿æŒè‹±æ–‡åŽŸæ–‡ã€‚äº¤æ˜“æ‰€/åœ°å›¾ç­‰æœç´¢åŠŸèƒ½éœ€è¦è¾“å…¥ç¹ä½“å­—æ¥æœç´¢ã€‚
 echo.
-echo  4. »Ö¸´Ô­ÎÄ£¬»Ö¸´×ÖÌå.
+echo  4. æ¢å¤åŽŸæ–‡ï¼Œæ¢å¤å­—ä½“.
 echo.
 :cho
 set choice=
-set /p choice=  ÇëÊäÈë±àºÅ:
+set /p choice=  è¯·è¾“å…¥ç¼–å·:
 if not "%choice%"=="" set choice=%choice:~0,1%
 if /i "%choice%"=="1" goto enmod
 if /i "%choice%"=="2" goto twmod
 if /i "%choice%"=="3" goto scmod
 if /i "%choice%"=="4" goto clean
-echo "%choice%" ÎÞÐ§Ñ¡Ïî£¬ÇëÖØÑ¡
+echo "%choice%" æ— æ•ˆé€‰é¡¹ï¼Œè¯·é‡é€‰
 echo.
 
 goto start
@@ -62,4 +62,5 @@ goto end
 
 :end
 pause
+
 
