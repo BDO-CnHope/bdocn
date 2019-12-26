@@ -1,5 +1,4 @@
 @echo off
-chcp 65001
 黑沙汉化+字体替换工具
 
 :start
