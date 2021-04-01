@@ -15,4 +15,4 @@
 - 本软件和代码仅供学习交流，如作他用所承受的法律责任一概与作者无关！
 
 # 赞助和帮助
-[![Foo](https://www.vultr.com/media/banners/banner_468x60.png)](https://www.vultr.com/?ref=8385583-6G)
+[![Foo](https://www.vultr.com/media/banners/banner_468x60.png)](https://www.vultr.com/zh/?ref=8385583-6G)
