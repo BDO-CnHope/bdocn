@@ -14,5 +14,7 @@
 # 声明
 - 本软件和代码仅供学习交流，如作他用所承受的法律责任一概与作者无关！
 
-# 赞助和帮助
+## 用以下的链接在Vultr开一个新的VPS账号可获得$100刀的使用额度
+- 至于VPS用来干嘛的请自行搜索科学上网(狗头
+
 [![Foo](https://www.vultr.com/media/banners/banner_468x60.png)](https://www.vultr.com/zh/?ref=8385583-6G)
